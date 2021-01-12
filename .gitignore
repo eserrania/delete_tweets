@@ -1,3 +1,4 @@
+.ipynb_checkpoints/*
 keys.py
 keep_tweets.py
 test.*

@@ -60,5 +60,5 @@ if __name__ == "__main__":
 
 	delete_timeline(date=datetime.strptime(args.date, '%Y-%m-%d'))
     
-   
+  
    
