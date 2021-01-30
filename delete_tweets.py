@@ -76,8 +76,6 @@ if __name__ == "__main__":
     else:
         verb = False
 
-    print('date: %s' % args.date)
-
     delete_timeline(date=datetime.strptime(args.date, '%Y-%m-%d'),
                     delete_tweets=tweets, delete_likes=likes, verbose=verb)
     
