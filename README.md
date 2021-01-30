@@ -1,8 +1,19 @@
-# delete_tweets
+# Script to selectively delete tweets and favs
+
+This script deletes all tweets and/or favs of a Twitter account. I borrowed heavily from [this post](https://www.mathewinkson.com/2015/03/delete-old-tweets-selectively-using-python-and-tweepy) for this script. 
+
+## Requirements
+
+* A Twitter developer account. You can aaply for one [here](https://developer.twitter.com/en/apply/user.html).
+* A file named ```keys.py``` containing the credentials of your developer account:
 
 ```python
-API_KEY='y8TZ6hlM5go8RBEb01imo2GOO'
-API_SECRET='4VTnIfow2L6g7KJPUgdfqEQ1BdXb3OSnR1wDZgd4690eZlSvfl'
-ACCESS_TOKEN='142130819-D5MISXGFt8MEKAIxIFepwYajBP4REvD1CmH42s13'
-ACCESS_SECRET='1tp1SoIa3TdyHrFb9yNaASnxAsG8Ino2X7IZnMIruu92F'
+API_KEY='XXXXXXXXX'
+API_SECRET='XXXXXXXXXX'
+ACCESS_TOKEN='XXXXXXXX'
+ACCESS_SECRET='XXXXXXXXXXX'
 ```
+
+* The ```tweepy``` python library
+
+## Use
