@@ -14,6 +14,21 @@ ACCESS_TOKEN='XXXXXXXX'
 ACCESS_SECRET='XXXXXXXXXXX'
 ```
 
-* The ```tweepy``` python library
+* The ```tweepy``` python library.
 
 ## Use
+
+Add the ID of any tweet you'd like to keep to the ```keep_tweets.py``` file like this:
+```python
+TWEET_IDS=[1292155096923504640, 1354904079940558848]
+```
+The script has the following arguments:
+* ```-t```: Delete tweets
+* ```-f```: Delete favorites
+* ```-d```: Date in yyyy-mm-dd format. The script will not delete all tweets and/or favs that were created at or after that date (if no date is specified the script will delete all tweets and favs)
+* ```-v```: Verbose mode
+
+For example, if you want to delete all tweets and favorites created before Jan 1st, 2021, write in the command line:
+```
+python delete_tweets.py -t -f -d 2021-01-01
+```
