@@ -4,7 +4,7 @@ This script deletes all tweets and/or favs of a Twitter account. I borrowed heav
 
 ## Requirements
 
-* A Twitter developer account. You can aaply for one [here](https://developer.twitter.com/en/apply/user.html).
+* A Twitter developer account. You can apply for one [here](https://developer.twitter.com/en/apply/user.html).
 * A file named ```keys.py``` containing the credentials of your developer account:
 
 ```python
